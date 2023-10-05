@@ -13,6 +13,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.File;
 
@@ -21,7 +22,9 @@ import java.io.File;
 public class SpringappApplicationTests {
 
 
-	private MockMvc mockMvc;
+	@Autowired
+   private  MockMvc mockMvc ;
+   
 
 
 	@Test
