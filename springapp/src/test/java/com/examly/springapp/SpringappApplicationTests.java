@@ -1,7 +1,5 @@
 package com.examly.springapp;
 
-
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -21,7 +19,6 @@ import java.io.File;
 @SpringBootTest
 @AutoConfigureMockMvc
 public class SpringappApplicationTests {
-
 
 
 	private MockMvc mockMvc;
