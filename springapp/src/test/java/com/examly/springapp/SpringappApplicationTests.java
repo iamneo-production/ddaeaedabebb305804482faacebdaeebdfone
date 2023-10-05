@@ -97,9 +97,6 @@ public class SpringappApplicationTests {
 		checkClassExists("com.examly.springapp.service.ApiService");
 	}
 
-	// Add more test cases as needed
-
-	// Helper methods for checking class and field existence
 	private void checkClassExists(String className) {
 		try {
 			Class.forName(className);
@@ -147,7 +144,7 @@ public class SpringappApplicationTests {
 
 	@Test
 	public void testrepositoryfolder() {
-		String directoryPath = "src/main/java/com/examly/springapp/repository"; // Replace with the path to your
+		String directoryPath = "src/main/java/com/examly/springapp/Repository"; // Replace with the path to your
 																				// directory
 		File directory = new File(directoryPath);
 		assertTrue(directory.exists() && directory.isDirectory());
